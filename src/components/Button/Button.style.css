@@ -6,10 +6,12 @@
 .button {
     border: 1px solid var(--color2);
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 25px;
     color: var(--color2);
     background-color: var(--color1);
     margin: 10px;
+    width: 20%;
+    font-size: 25px;
 }
 
 .button:hover {

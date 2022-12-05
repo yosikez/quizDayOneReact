@@ -1,0 +1,40 @@
+:root {
+    --color1 : rgb(52, 157, 226);
+    --color2 : white;
+    --color3 : #282c34
+  }
+
+body {
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.title, .result1 {
+    background-color: var(--color1);
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+}
+.result1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.result1 h1 {
+    margin: 0;
+}
+
+.result1 p {
+    text-align: left;
+    font-size: 20px;
+}
+.data {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color1);
+    color: var(--color2);
+    border-radius: 25px;
+    padding: 30px;
+    gap: 20px;
+}
