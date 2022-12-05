@@ -1,7 +1,20 @@
-.App {
-  text-align: center;
+:root {
+  --color1 : rgb(52, 157, 226);
+  --color2 : white;
+  --color3 : #282c34
 }
 
+html {
+  background-color: var(--color3);
+}
+
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 50px;
+  margin: 50px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,6 +39,20 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.card {
+  background-color: var(--color1);
+  color: var(--color2);
+  border-radius: 25px;
+  padding: 10px;
+  padding-bottom: 20px;
+  height: 200px;
+}
+
+.shadow {
+  box-shadow: 2px 2px 50px rgb(52, 157, 226, 0.3);
+  border-radius: 15px;
 }
 
 @keyframes App-logo-spin {
